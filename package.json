@@ -1,0 +1,22 @@
+{
+  "name": "docuextract-webhooks",
+  "version": "1.0.0",
+  "description": "Webhook integrations for DocuExtract Gateway - trigger workflows on extraction events",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "dev": "node --watch lib/index.js"
+  },
+  "keywords": [
+    "webhooks",
+    "document",
+    "extraction",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "uuid": "^9.0.0"
+  }
+}
